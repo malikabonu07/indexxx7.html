@@ -1,0 +1,39 @@
+.container {
+    display: grid;
+    grid-template-columns:auto auto auto;
+    height: 400px;
+    gap: 20px;
+    padding: 50px;
+    display: grid;
+}
+.box{
+    font-size:40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.box1 {
+    background-color: springgreen;
+
+}
+.box2 {
+    background-color: orangered;
+   
+}
+.box3 {
+    background-color: blueviolet;
+    grid-column: 2/4;
+    grid-row: 2/4;
+  
+}
+.box4 {
+    background-color: palevioletred;
+
+}
+.box5 {
+    background-color: chartreuse;
+}
+.box6 {
+    background-color: blue;
+}
